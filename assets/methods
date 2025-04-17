@@ -1,0 +1,26 @@
+<<$clear>>
+<<sleep(2)>>              \x1b[1;34m- [Powered by Vernitiger C2] -\x1b[0m
+<<sleep(8)>>\x1b[34m╔════════════╦═════════════════════════════════╦═══════════╗
+<<sleep(15)>>║ \x1b[37m NAME      \x1b[34m║  \x1b[37m        DESCRIPTION            \x1b[34m║ \x1b[37m DURATION \x1b[34m║
+<<sleep(22)>>╠════════════╬═════════════════════════════════╬═══════════╣
+<<sleep(29)>>║ \x1b[37mMIX        \x1b[34m║ \x1b[37mLayer 7 - Attack URL [BASIC]    \x1b[34m║ \x1b[37m   300   \x1b[34m ║
+<<sleep(36)>>║ \x1b[37mTLS        \x1b[34m║ \x1b[37mLayer 7 - Attack URL [BASIC]    \x1b[34m║ \x1b[37m   300   \x1b[34m ║
+<<sleep(43)>>║ \x1b[37mHTTPS      \x1b[34m║ \x1b[37mLayer 7 - Attack URL [BASIC]    \x1b[34m║ \x1b[37m   300   \x1b[34m ║
+<<sleep(50)>>║ \x1b[37mVFLOOD     \x1b[34m║ \x1b[37mLayer 7 - Flooder http/2 http/1 \x1b[34m║ \x1b[37m   300   \x1b[34m ║
+<<sleep(57)>>║ \x1b[37mHYBRID     \x1b[34m║ \x1b[37mLayer 7 - Attack URL [BASIC]    \x1b[34m║ \x1b[37m   300   \x1b[34m ║
+<<sleep(64)>>║ \x1b[37mMIXBILL    \x1b[34m║ \x1b[37mLayer 7 - Attack URL [BASIC]    \x1b[34m║ \x1b[37m   300   \x1b[34m ║
+<<sleep(71)>>╠════════════╬═════════════════════════════════╬═══════════╣
+<<sleep(78)>>║ \x1b[37mH2         \x1b[34m║ \x1b[37mLayer 7 - Simulating browser    \x1b[34m║ \x1b[37m   300   \x1b[34m ║
+<<sleep(92)>>║ \x1b[37mH2-VERN    \x1b[34m║ \x1b[37mLayer 7 - Bypass Geolocation    \x1b[34m║ \x1b[37m   300   \x1b[34m ║
+<<sleep(99)>>║ \x1b[37mH2-JOUMA   \x1b[34m║ \x1b[37mLayer 7 - Stable rps with http/2\x1b[34m║ \x1b[37m   300   \x1b[34m ║
+<<sleep(106)>>║ \x1b[37mH2-FURY    \x1b[34m║ \x1b[37mLayer 7 - Very high rps nosec   \x1b[34m║ \x1b[37m   300   \x1b[34m ║
+<<sleep(120)>>║ \x1b[37mVERN-B     \x1b[34m║ \x1b[37mLayer 7 - Bypass with stable rps\x1b[34m║ \x1b[37m   300   \x1b[34m ║
+<<sleep(127)>>║ \x1b[37mBROWSER    \x1b[34m║ \x1b[37mLayer 7 - Bypass Captcha      \x1b[34m  ║ \x1b[37m   300   \x1b[34m ║
+<<sleep(141)>>╠════════════╬═════════════════════════════════╬═══════════╣
+<<sleep(148)>>║ \x1b[37mTCP        \x1b[34m║ \x1b[37mLayer 4 - bypass with high pps  \x1b[34m║ \x1b[37m   100   \x1b[34m ║
+<<sleep(155)>>║ \x1b[37mUDP        \x1b[34m║ \x1b[37mLayer 4 - bypass with high gbps \x1b[34m║ \x1b[37m   100   \x1b[34m ║
+<<sleep(178)>>╚════════════╩═════════════════════════════════╩═══════════╝\x1b[0m
+
+<<sleep(196)>>\x1b[37mPlease Type \x1b[1m\x1b[34m"CLS"\x1b[0m\x1b[37m For Back to Menu\x1b[0m
+<<sleep(123)>>\x1b[34m______________________________________________________________________________\x1b[0m
+

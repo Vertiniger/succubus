@@ -1,0 +1,9 @@
+<<sleep(20)>>\x1b[1m\x1b[34m»\x1b[0m\x1b[1m Your Account Info \x1b[34m«\x1b[0m
+
+<<sleep(40)>>\x1b[1mUser \x1b[34m»\x1b[0m\x1b[1m <<$username>>
+<<sleep(60)>>Conc \x1b[34m»\x1b[0m\x1b[1m <<$concurrents>>
+<<sleep(80)>>TimeLimit \x1b[34m»\x1b[0m\x1b[1m <<$timelimit>>
+<<sleep(100)>>Cooldown \x1b[34m»\x1b[0m\x1b[1m <<$cooldown>>
+<<sleep(120)>>Expired \x1b[34m»\x1b[0m\x1b[1m <<$expiry>> day(s) left
+
+<<sleep(140)>>\x1b[34mP O W E R E D  B Y  V E R N I T I G E R\x1b[0m                                   

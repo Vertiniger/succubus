@@ -1,0 +1,14 @@
+<<sleep(5)>>\x1b[1;35m \x1b[31m\x1b[34mHELP COMMAND\x1b[0m
+<<sleep(10)>>\x1b[31m•\x1b[0m HELP      | Show All Commands
+<<sleep(20)>>\x1b[31m•\x1b[0m METHODS   | Show All Methods
+<<sleep(30)>>\x1b[31m•\x1b[0m CLS       | Clear And Back To Home
+<<sleep(40)>>\x1b[31m•\x1b[0m TOOLS     | Show Check-Host, Ping, ETC
+<<sleep(50)>>\x1b[31m•\x1b[0m HISTORY   | Show All History Attacks
+<<sleep(60)>>\x1b[31m•\x1b[0m MYINFO    | Show Your Account Information
+<<sleep(70)>>\x1b[31m•\x1b[0m ONGOING   | View Running Attacks
+<<sleep(80)>>\x1b[31m•\x1b[0m PASSWD    | Change Password
+<<sleep(90)>>\x1b[31m•\x1b[0m CHAT      | Chatting With Other Team
+<<sleep(100)>>\x1b[31m•\x1b[0m EXIT      | Close Your Session
+<<sleep(120)>>\x1b[1;35m \x1b[31m\x1b[34mADMIN COMMAND\x1b[0m
+<<sleep(140)>>\x1b[31m•\x1b[0m ALERT     | Send Alert to Users\x1b[0m
+<<sleep(160)>>\x1b[31m•\x1b[0m USERS ADD | Add Users\x1b[0m

@@ -1,0 +1,13 @@
+<<sleep(20)>>\x1b[1;35m \x1b[31m\x1b[47mAttack Details\x1b[0m
+<<sleep(40)>>\x1b[1;34m Host   :[\x1b[1m\x1b[34m <<$host>> \x1b[1;34m]
+<<sleep(60)>>\x1b[1;34m Port   :[\x1b[1m\x1b[34m <<$port>> \x1b[1;34m]
+<<sleep(80)>>\x1b[1;34m Time   :[\x1b[1m\x1b[34m <<$time>> \x1b[1;34m]
+<<sleep(100)>>\x1b[1;34m Method :[\x1b[1m\x1b[34m <<$method>> \x1b[1;34m]
+<<sleep(120)>>\x1b[1;37m \x1b[31m\x1b[47mTarget Details\x1b[0m
+<<sleep(140)>>\x1b[1;34m ASN    :[\x1b[1m\x1b[34m <<$as>> \x1b[1;34m]
+<<sleep(160)>>\x1b[1;34m ISP    :[\x1b[1m\x1b[34m <<$isp>> \x1b[1;34m]
+<<sleep(180)>>\x1b[1;34m ORG    :[\x1b[1m\x1b[34m <<$org>> \x1b[1;34m]
+<<sleep(200)>>\x1b[1;31m \x1b[31m\x1b[47mCREDITS\x1b[0m
+<<sleep(220)>>\x1b[1;34m Owner  :[\x1b[1m\x1b[34m @VernitigerC2 \x1b[1;34m] 
+<<sleep(240)>>\x1b[1;34m Tele   :[\x1b[1m\x1b[34m t.me/VernitigerC2 \x1b[1;34m]
+═══════════════════════════════════════════════════════════════════════════════
