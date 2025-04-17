@@ -5,11 +5,11 @@
 
     "-Comment- Remove this line":"settings below are for the discord bot",
     "logs":{
-        "enabled":true,
+        "enabled":false,
         "channel": 997046944419553320
     },
     "monitor":{
-        "enabled":true,
+        "enabled":false,
         "channel": 997605583647690753,
         "message": 997619514583826456,
         "delay": 5000
