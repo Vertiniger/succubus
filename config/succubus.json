@@ -23,7 +23,7 @@
 
     "branding":{
 
-        "title":"Vernitiger C2 | <<$username>> | Users on:  <<$onlineusers>>/<<$totalusers>> | Ongoing attacks : <<$allgoing>> | Expiry: <<$expiry>>",
+        "title":"Vernitiger C2 | <<$username>> | Users on:  <<$onlineusers>>/<<$totalusers>> | Ongoing attacks : <<$allgoing>>/<<$concurrents>> | Expiry: <<$expiry>>",
         "prompt": "\\x1b[1m\\x1b[48;5;255m\\x1b[34mVernitiger C2\\x1b[0m\\x1b[48;5;255m\\x1b[34m ➤\\x1b[0m ",
 
         "assets":{
