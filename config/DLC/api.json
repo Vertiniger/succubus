@@ -1,0 +1,27 @@
+{
+    "config":{
+        "enabled":true,
+        "launch feedback":true,
+        "port":1337,
+        "path":"/succubus/api",
+        "control panel":true
+    },
+    "servers":[
+        {
+            "name":"alpha",
+            "config":{
+                "host":"157.230.244.247:22",
+                "username":"root",
+                "password":"VPSC2R"
+            }
+        },
+        {
+            "name":"omega",
+            "config":{
+                "host":"157.245.48.144:22",
+                "username":"root",
+                "password":"hurricane"
+            }
+        }
+    ]
+}
