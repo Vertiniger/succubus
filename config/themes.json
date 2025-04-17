@@ -1,0 +1,101 @@
+[ 
+    { 
+        "name":"alternate", 
+        "banner":"themes/alternate/banner.txt", 
+        "title":"Succubus C2", 
+ 
+        "help":"helpfile", 
+        "methods":"methodsfile", 
+         
+        "prompt":"[<theme>Succubus</>]> ", 
+        "description":"alternate succubus theme", 
+        "gradient":[ 
+            { 
+                "r": 240, 
+                "g": 240, 
+                "b": 0 
+            }, 
+            { 
+                "r": 190, 
+                "g": 0, 
+                "b": 170 
+            }, 
+            { 
+                "r": 255, 
+                "g": 0, 
+                "b": 0 
+            } 
+        ] 
+    }, 
+     
+    { 
+        "name":"neko", 
+        "banner":"neko", 
+        "title":"Masters <<$onlineusers>> |  Running <<$allgoing>> | Neko Hub | User <<$username>> | Expiry <<$expiry>> day(s)s left", 
+        "prompt":"[<theme><<$username>></>/<theme>Neko</>/<theme>Hub</>]> ",  
+        "description":"The best of the best", 
+        "prompt gradient":[ 
+            { 
+                "r": 255, 
+                "g": 50, 
+                "b": 23 
+            }, 
+            { 
+                "r": 153, 
+                "g": 97, 
+                "b":250 
+            }, 
+            { 
+                "r": 255, 
+                "g": 142, 
+                "b":61 
+            }, 
+            { 
+                "r": 32, 
+                "g": 250, 
+                "b":214 
+            } 
+        ], 
+        "gradient":[ 
+            { 
+                "r": 255, 
+                "g": 50, 
+                "b": 23 
+            }, 
+            { 
+                "r": 153, 
+                "g": 97, 
+                "b":250 
+            }, 
+            { 
+                "r": 255, 
+                "g": 142, 
+                "b":61 
+            }, 
+            { 
+                "r": 32, 
+                "g": 250, 
+                "b":214 
+            } 
+        ] 
+    }, 
+    { 
+        "name":"Vernitiger", 
+        "banner":"themes/vernitiger/banner.txt", 
+        "title":"Vernitiger C2", 
+        "prompt": "\\x1b[1m\\x1b[48;5;255m\\x1b[34m<<$username>> | Vernitiger C2\\x1b[0m\\x1b[48;5;255m\\x1b[34m➤\\x1b[0m ",
+        "description":"Vernitiger C2 Theme", 
+        "gradient":[ 
+            { 
+                "r": 163, 
+                "g": 78, 
+                "b": 78 
+            }, 
+            { 
+                "r": 0, 
+                "g": 251, 
+                "b": 255 
+            } 
+        ] 
+    } 
+]
