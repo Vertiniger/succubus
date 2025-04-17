@@ -7,7 +7,7 @@
     "allow attack by range":true,
     
     "host limit": {
-        "enabled":false,
+        "enabled":true,
         "attacks":2,
         "seconds":500
     },
@@ -16,7 +16,7 @@
         {
             "name":"test",
             "concurrents":10,
-            "timelimit":2000
+            "timelimit":86400
         }
     ]
 
