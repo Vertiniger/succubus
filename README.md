@@ -10,7 +10,7 @@ mysql -u root -proot -e "create database succubus;"
 
 mysql -u root -root succubus < doodump.sql
 
-mysql -u root -root mysql -e "grant ALL on *.* to root@'localhost' IDENTIFIED by 'root';"
+mysql -u root -root mysql -e "grant ALL on . to root@'localhost' IDENTIFIED by 'root';"
 
 ulimit -n 999999
 
