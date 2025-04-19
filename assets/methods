@@ -17,8 +17,8 @@
 <<sleep(120)>>║ \x1b[37mVERN-B     \x1b[34m║ \x1b[37mLayer 7 - Bypass with stable rps\x1b[34m║ \x1b[37m  1200   \x1b[34m ║
 <<sleep(127)>>║ \x1b[37mBROWSER    \x1b[34m║ \x1b[37mLayer 7 - Bypass Captcha      \x1b[34m  ║ \x1b[37m  1200   \x1b[34m ║
 <<sleep(141)>>╠════════════╬═════════════════════════════════╬═══════════╣
-<<sleep(148)>>║ \x1b[37mTCP        \x1b[34m║ \x1b[37mLayer 4 - bypass with high pps  \x1b[34m║ \x1b[37m  120   \x1b[34m ║
-<<sleep(155)>>║ \x1b[37mUDP        \x1b[34m║ \x1b[37mLayer 4 - bypass with high gbps \x1b[34m║ \x1b[37m  120   \x1b[34m ║
+<<sleep(148)>>║ \x1b[37mTCP        \x1b[34m║ \x1b[37mLayer 4 - bypass with high pps  \x1b[34m║ \x1b[37m  120   \x1b[34m  ║
+<<sleep(155)>>║ \x1b[37mUDP        \x1b[34m║ \x1b[37mLayer 4 - bypass with high gbps \x1b[34m║ \x1b[37m  120   \x1b[34m  ║
 <<sleep(178)>>╚════════════╩═════════════════════════════════╩═══════════╝\x1b[0m
 
 <<sleep(196)>>\x1b[37mPlease Type \x1b[1m\x1b[34m"CLS"\x1b[0m\x1b[37m For Back to Menu\x1b[0m
